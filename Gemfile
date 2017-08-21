@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0'
+gem 'bootstrap-sass'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
