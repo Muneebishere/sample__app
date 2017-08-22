@@ -6,6 +6,7 @@ group :development, :test, :production do
   gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'annotate'
+  gem 'factory_girl_rails'
 end
 # Gems used only for assets and not required
 # in production environments by default.
