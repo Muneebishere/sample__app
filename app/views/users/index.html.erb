@@ -1,0 +1,13 @@
+<% @title = "All Users" %>
+<h1>All users</h1>
+
+<%= will_paginate %>
+  <ul>
+    <% @users.each do |user| %>
+    <div class="row">
+      <%= render user %>
+      </div>
+    <% end %>
+  </ul>
+
+  <%= will_paginate %>

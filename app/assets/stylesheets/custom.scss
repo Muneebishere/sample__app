@@ -27,7 +27,7 @@ textarea {
     background-color: #333;
 }
 
-li {
+.horizontal {
     float: right;
     a {
     display: block;
@@ -87,7 +87,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #lightGray;
+  color: $lightGray;
   a{
     color: #555;
     &:hover{
@@ -124,7 +124,7 @@ box-sizing: border-box;
 aside {
   section {
     padding: 10px 0;
-    border-top: 1px solid #lightGray;
+    border-top: 1px solid $lightGray;
     &:first-child {
       border: 0;
       padding-top: 0;
@@ -164,3 +164,31 @@ margin-bottom: 15px;
     margin: 0 0 18px 0;
   }
 }
+
+.microposts {
+  list-style: none;
+  margin: 10px 0 0 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+}
+
+.content {
+  display: block;
+}
+.timestamp {
+  color: $lightGray;
+}
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+aside {
+  textarea {
+    height: 100px;
+    margin-bottom: 5px;
+  }
+}
+
+
